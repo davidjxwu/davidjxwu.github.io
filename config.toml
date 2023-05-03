@@ -22,7 +22,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 enableInlineShortcodes = true
 
 [permalinks]
-  blog = "/:slug/"
+  blog = "/blog/:slug/"
   tags = "/blog/:slug"
 
 [params]
