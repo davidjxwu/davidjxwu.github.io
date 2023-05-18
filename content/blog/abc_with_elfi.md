@@ -33,6 +33,7 @@ def sir_ode(t, y, beta, alpha):
     # reshape and split inputs by the batch
     # y is the state vector, comes in shape (3N,)
     # beta, alpha each come in shape (N,)
+    y = np.clip(y, 0, None)
     S, I, R = np.asanyarray(y).reshape((-1, 3)).T
     beta = np.asanyarray(beta).flatten()
     alpha = np.asanyarray(alpha).flatten()
@@ -77,7 +78,7 @@ def simulator(R0, rec, batch_size=1, random_state=None):
                              random_state=random_state)
 ```
 
-Nothing too fancy for the mechanistic model: we're just using the simple SIR model, and observing the prevalence via a Poisson observation model. The SIR model is solved non-dimensionally, and then made dimensional before the observation process. We do not attempt to estimate the initial conditions - these are simply provided to the integrator, though estimating these probably wouldn't be difficult to implement (but the nonidentifiability might kill the sampling step). One other small note is that we will use $R_0$ and the recovery period as our parameters of interest. This just allows us to ensure that $R_0 > 1$ so that we will always have an outbreak.
+Nothing too fancy for the mechanistic model: we're just using the simple SIR model, and observing the prevalence via a Poisson observation model. The SIR model is solved non-dimensionally, and then made dimensional before the observation process. We do not attempt to estimate the initial conditions - these are simply provided to the integrator, though estimating these probably wouldn't be difficult to implement (but the nonidentifiability might kill the sampling step). One other small note is that we will use $R_0$ and the recovery period as our parameters of interest. This just allows us to ensure that $R_0 > 1$ so that we will always have an outbreak. We also put in a (numerical) lower bound on our state variables so that we don't run into computational issues when running the ODE solver with parameters that encourage rapid dynamics.
 
 One oddity that you will see quickly is the handling of a `batch_size` parameter. This is a quirk that I think is unique to ELFI. ELFI likes it when you can rapidly generate a large number of samples. It does this by expecting the simulator to be able to create an arbitrary number of samples.
 For our purposes, we simply allow for this by stacking the multiple ODEs on top of each other. This _does_ introduce performance penalties in terms of the adaptive step control being overly conservative (intuitively we get a "slowdown" in step size when one of the realisations goes through the exponential growth phase, which has different timings for different $R_0$).
