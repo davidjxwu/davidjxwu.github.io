@@ -10,7 +10,7 @@ Of course, this works fine with standard xelatex using the animate library and r
 
 I came across [an intriguing tex stackexchange thread](https://tex.stackexchange.com/questions/235139/using-the-animate-package-without-adobe) while searching for answers. In this thread, user [AlexG](https://tex.stackexchange.com/users/1053/alexg) details how to use latex to emit dvi files that can be converted with `dvisvgm` to svg files that can be rendered by a browser. modern browsers have native javascript support, which is the thing that is required to rendering animations produced by the animate library.
 
-Sadly, the answer runs into a small problem with xelatex, which is required, for example, to use the fontspec library to utilise system fonts. Fortunately, there's onyl a few small tweaks to make it work.
+Sadly, the answer runs into a small problem with xelatex, which is required, for example, to use the fontspec library to utilise system fonts. Fortunately, there's only a few small tweaks to make it work.
 
 Firstly, remove the hypertex option from the documentclass command to allow xelatex to work
 
