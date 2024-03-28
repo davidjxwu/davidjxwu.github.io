@@ -8,7 +8,7 @@ theme = ["hugo-embed-pdf-shortcode", 'hugo-bearblog']
 # Basic metadata configuration for your blog.
 title = "David Wu"
 author = "David Wu"
-copyright = "Copyright © 2023, David Wu."
+copyright = "Copyright © 2024, David Wu."
 languageCode = "en-UK"
 
 # Generate a nice robots.txt for SEO

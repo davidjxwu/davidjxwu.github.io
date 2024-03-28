@@ -3,7 +3,7 @@ Research Fellow
 Dept. of Econometrics and Business Statistics, Monash University  
 29 Ancora Imparo Way  
 Clayton  
-VIC 3168, Australia  
+VIC 3800, Australia  
 david.wu1@monash.edu  
 
 I work on modelling infectious diseases, using mathematical, statistical, and computational methods. I am primarily interested in the simulation and inference of dynamic mechanistic models in practical timeframes.  
