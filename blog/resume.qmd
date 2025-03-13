@@ -11,4 +11,4 @@ Then, last year, I got fed up. Being a new member in what amounts to a statistic
 And so, I began reformatting the damned latex document into a file that pandoc could digest. 
 Initially, I had wanted to write an actual markdown document, where each section would be nicely automatically formatted into what my LaTeX template had looked like. Unfortunately, I could not do that -- it was beyond my realm of expertise. Instead, I decided to abuse the YAML header of a pandoc-flavoured markdown file in order to generate an entire LaTeX document.
 
-The resume, along with the template can be found on Github: https://github.com/dwu402/resume
+The resume, along with the template can be found on Github: [https://github.com/dwu402/resume](https://github.com/dwu402/resume)
