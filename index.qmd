@@ -1,0 +1,33 @@
+---
+title: "David Wu"
+about:
+  template: trestles
+  image: images/face.jpg
+  links:
+    - icon: megaphone
+      text: Bluesky
+      href: https://bsky.app/profile/davidjxwu.bsky.social
+    - icon: github
+      text: GH (personal)
+      href: https://github.com/davidjxwu
+    - icon: github
+      text: GH (Monash)
+      href: https://github.com/dwu0042
+    - icon: github
+      text: GH (UoA)
+      href: https://github.com/dwu402
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/david-jx-wu
+    - icon: bank
+      text: Monash
+      href: https://research.monash.edu/en/persons/david-wu
+---
+
+I work on modelling infectious diseases, using mathematical, statistical, and computational methods. I am primarily interested in the simulation and inference of dynamic mechanistic models within practical timeframes.  
+
+Currently, I'm working on modelling hospital-acquired infections in the Victorian health system, under the supervision of [Dr. Michael Lydeamore](https://research.monash.edu/en/persons/michael-lydeamore).
+
+I did my PhD in Engineering supervised by [Dr. Oliver J.](https://profiles.auckland.ac.nz/oliver-maclaren)[ Maclaren](https://omaclaren.com) and [Dr. Vinod Suresh](https://profiles.auckland.ac.nz/v-suresh) at the University of Auckland in New Zealand.
+
+I primarily work in Python. I have some experience with bash and the Linux ecosystem.

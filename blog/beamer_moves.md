@@ -1,7 +1,7 @@
 ---
 title: Animations with Beamer
 date: "2023-08-15"
-tags: ["latex", "software"]
+categories: ["latex", "software"]
 ---
 
 I've always struggled getting animations working with beamer. The libraries can be fragile, and because I'm usually on a Linux machine that's a stable release or two behind for work, and have no real invested interest in learning how to make things work, it's hard to get (valid) pdf outputs from beamer to render in the available pdf readers.

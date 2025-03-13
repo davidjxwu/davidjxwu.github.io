@@ -1,7 +1,7 @@
 ---
 title: "Zotero with Google Drive for Cheapskates like Me"
 date: "2023-05-03"
-tags: [software]
+categories: [software]
 # draft: yes
 ---
 

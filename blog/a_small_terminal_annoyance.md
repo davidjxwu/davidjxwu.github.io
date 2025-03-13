@@ -1,7 +1,7 @@
 ---
 title: "A Small Terminal Annoyance"
 date: '2024-03-28'
-tags: ['software']
+categories: ['software']
 ---
 
 When teaching this week, I confused a student because my terminal emitted the `^C` characters when I hit `Ctrl+C` to cancel something in my terminal. This caused some grief as they stuck this to the end of their terminal command which made the argument invalid.

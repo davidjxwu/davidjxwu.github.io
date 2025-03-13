@@ -1,7 +1,7 @@
 ---
 title: "ABC of a deterministic model with ELFI"
 date: '2023-05-17'
-tags: ['stats']
+categories: ['stats']
 ---
 
 Recently, I've been playing with ABC libraries to do estimation of parameters for some models we're investigating to fit some temporal data. ABC (approximate Bayesian computation) attempts to generate samples that have distribution approximately like a target posterior, where the likelihood function is intractable. Instead, it uses some measure of distance between summary statistics of the generating process and the data in order to select samples.

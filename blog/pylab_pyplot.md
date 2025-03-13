@@ -1,7 +1,7 @@
 ---
 title: "A note on interactive matplotlib plotting in Jupyterlab"
 date: 2024-08-06
-tags: 
+categories: 
     - python
 ---
 

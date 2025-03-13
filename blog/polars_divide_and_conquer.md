@@ -1,7 +1,7 @@
 ---
 title: "Solving a Large Problem"
 date: '2023-07-27'
-tags: ['python']
+categories: ['python']
 ---
 
 Recently, I've been working on a large table of data, where we need to do a relatively expensive operation on a few rows which are determined at runtime. By large, I mean large by academic standards - there are only in the order of 20 million records, and we're only dealing with a single 4-column table.

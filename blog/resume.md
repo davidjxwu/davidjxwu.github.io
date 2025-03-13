@@ -1,7 +1,7 @@
 ---
 title: I rebuilt my resume pipeline in pandoc
 date: "2024-06-06"
-tags: ['software', 'latex']
+categories: ['software', 'latex']
 ---
 
 A few years ago, I stole a CV template from the now-absorbed ShareLaTeX platform in order to build a resume for finding graduate positions. This template was, of course, in LaTeX, and had some odd constructions. Being relatively new to the language, I made do; over the years, as I became marginally more familiar with LaTeX, I made some small additions, mainly for papers and conferences, and other nice academic-sounding things.

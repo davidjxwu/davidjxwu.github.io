@@ -1,0 +1,5 @@
+---
+title: "Bio"
+---
+
+David Wu is a postdoctoral research fellow at the Department of Econometrics and Business Statistics, Monash University. He joined the department in March 2023, after completing his PhD in Engineering from the Department of Engineering Science at the University of Auckland in New Zealand. His primary area of research is the modelling of infectious diseases, with a focus on computational methods for stochastic simulation and uncertainty quantification for mechanistic models. He is currently working with Dr. Michael Lydeamore on modelling and controlling the spread of hospital-acquired infections in Victoria.

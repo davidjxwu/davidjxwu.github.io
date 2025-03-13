@@ -1,7 +1,7 @@
 ---
 title: "Python on Windows: pyenv-win"
 date: "2025-01-29"
-tags: ["python", "rant"]
+categories: ["python", "rant"]
 ---
 
 Man I hate using Python on Windows.

@@ -1,7 +1,7 @@
 ---
 title: "Pseudolikelihood"
 date: "2023-06-29"
-tags: ["statistics"]
+categories: ["statistics"]
 draft: yes
 math: true
 ---
