@@ -1,6 +1,0 @@
-[submodule "themes/hugo-bearblog"]
-	path = themes/hugo-bearblog
-	url = https://github.com/janraasch/hugo-bearblog.git
-[submodule "themes/hugo-embed-pdf-shortcode"]
-	path = themes/hugo-embed-pdf-shortcode
-	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git
